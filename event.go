@@ -27,8 +27,8 @@ type LinkdefSet struct {
 	Name         string   `json:"name"`
 	SourceConfig []string `json:"source_config"`
 	SourceID     string   `json:"source_id"`
-	TargetConfig []string `json:"target"`
-	TargetID     string   `json:"target_config"`
+	TargetConfig []string `json:"target_config"`
+	TargetID     string   `json:"target"`
 	WitNamespace string   `json:"wit_namespace"`
 	WitPackage   string   `json:"wit_package"`
 }
